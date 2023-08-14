@@ -24,7 +24,8 @@ public class TestSet1 extends BaseClassRiverSide {
     @Test        //(retryAnalyzer = Retry.class)
     public void cartPageNavigation() throws IOException, InterruptedException {
         // TODO Auto-generated method stub
-
+//hi //hello just now i am diing changes
+        int ix=0; int indexss= ix*2;
         HomePage homeLaunch = lp.login("helencont2@gmail.com", "test12345");
         homeLaunch.cartPage();
         Thread.sleep(15000);
