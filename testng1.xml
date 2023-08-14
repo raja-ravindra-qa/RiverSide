@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="SeleniumComponents.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Raveendra/IdeaProjects/RiverSideInsights">
+        <classes>
+            <class name="SeleniumComponents.BaseClassRiverSide">
+                <methods>
+                    <include name="driver"/>
+                </methods>
+            </class>
+            <class name="SeleniumComponents.RSILogin">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="SeleniumComponents.Test1">
+                <methods>
+                    <include name="mobileApp"/>
+                    <include name="mobileApppl"/>
+                    <include name="mobileAppel"/>
+                    <include name="mobileAppgl"/>
+                    <include name="mobileApppfd"/>
+                    <include name="mobileAppglocker"/>
+                </methods>
+            </class>
+            <class name="SeleniumComponents.Test2">
+                <methods>
+                    <include name="webApp"/>
+                    <include name="webApppl"/>
+                    <include name="webAppel"/>
+                    <include name="webAppgl"/>
+                    <include name="webApppfd"/>
+                    <include name="webAppglocker"/>
+                </methods>
+            </class>
+            <class name="SeleniumComponents.Test3">
+                <methods>
+                    <include name="phyApp"/>
+                    <include name="phyApppl"/>
+                    <include name="phyAppel"/>
+                    <include name="phyAppgl"/>
+                    <include name="phyApppfd"/>
+                    <include name="phyAppglocker"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
