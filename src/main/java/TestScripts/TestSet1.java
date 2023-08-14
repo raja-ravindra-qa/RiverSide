@@ -25,7 +25,7 @@ public class TestSet1 extends BaseClassRiverSide {
     public void cartPageNavigation() throws IOException, InterruptedException {
         // TODO Auto-generated method stub
 //hi //hello just now i am diing changes
-        int ix=0;
+
         HomePage homeLaunch = lp.login("helencont2@gmail.com", "test12345");
         homeLaunch.cartPage();
         Thread.sleep(15000);
